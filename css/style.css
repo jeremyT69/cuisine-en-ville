@@ -1,10 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
   margin: 0;
   padding: 0;
 }
 
+.Roboto {
+  font-family: Roboto,sans-serif;
+}
+
 .menu-navbar {
   background-color: #EBE6E4;
+}
+
+.menu-navbar .img {
+  width: 25%;
+}
+
+.btn-order {
+  color: #000;
+  border-color: #000;
+  transition: 0.5s;
+}
+
+.btn-order:hover {
+  color: #EBE6E4;
+  background-color: black;
 }
