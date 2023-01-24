@@ -67,3 +67,13 @@ footer li {
   margin: 15px 0 0 0;
   padding-bottom: 5px;
 }
+
+/* Css de la page A propos */
+
+.Apropos {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+    url("/photo/photo-Apropos.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 70vh;
+}
