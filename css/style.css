@@ -75,5 +75,23 @@ footer li {
     url("/photo/photo-Apropos.jpg");
   background-position: center;
   background-size: cover;
-  min-height: 70vh;
+  min-height: 60vh;
+}
+
+.Apropos h1{
+  font-size: 55px;
+}
+
+.text-presentation p{
+  font-size: 15px;
+}
+
+/* Css de la page Menu */
+
+.Menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/photo/Photo-Menu.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
 }
