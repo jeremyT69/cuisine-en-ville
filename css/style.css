@@ -30,7 +30,7 @@
 
 .banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("/photo/photo-restaurant.jpg");
+    url("/photo/photo-accueil.jpg");
   background-position: center;
   background-size: cover;
   min-height: 70vh;
@@ -72,8 +72,18 @@ footer li {
 
 .Apropos {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-    url("/photo/photo-Apropos.jpg");
+    url("/photo/photo-restaurant.jpg");
   background-position: center;
   background-size: cover;
   min-height: 70vh;
+}
+
+/*Css de la page Menu*/
+
+.Menu {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("/photo/photo-Menu.jpg");
+  background-position: center;
+  background-size: cover;
+  min-height: 60vh;
 }
