@@ -91,6 +91,8 @@ footer li {
 
 /*css de la page réservation*/
 
-.form {
-  min-height: 100vh;
+.container-time {
+  padding: 50px;
+  outline: 3px dashed #EBE6E4;
 }
+
