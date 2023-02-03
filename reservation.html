@@ -60,28 +60,33 @@
       <h5 class="title-phone">Téléphone: 06.54.31.86.00</h5>
     </div>
 
-    <div class="container-form ps-5 col-lg-4">
+    <div class="container-form text-center col-lg-4">
       <form action="#">
-        <h2 class="title-reservation">Réservation en ligne</h2>
+        <h2 class="title-reservation pb-3">Réservation en ligne</h2>
 
-        <div class="form-field fw-bold">
-          <p>Nom</p>
-          <input type="text">
-        </div>
-
-        <div class="form-field fw-bold">
-          <p>E-mail</p>
-          <input type="text">
-        </div>
-
-        <div class="form-field fw-bold">
-          <p>Date</p>
-          <input type="date">
+        <div class="form-field fw-bold pb-3 w-100">
+          <label for="firstname"></label>
+          <input type="text" name="Nom" placeholder="Nom" id="firstname">
         </div>
 
         <div class="form-field fw-bold pb-3">
-          <p>Nombres de personnes</p>
-          <select name="select" id="#">
+          <label for="email-input"></label>
+          <input type="text" name="email" placeholder="E-mail" id="email-input">
+        </div>
+
+        <div class="form-field fw-bold pb-3">
+          <label for="date-input"></label>
+          <input type="date" name="Date" id="date-input">
+        </div>
+
+        <div class="form-field fw-bold pb-3">
+          <label for="time-input"></label>
+          <input type="time" name="time" id="time-input">
+        </div>
+
+        <div class="form-field fw-bold pb-3">
+          <label for="select-input"></label>
+          <select name="select" id="select-input">
             <option value="1">1 pers.</option>
             <option value="2">2 pers.</option>
             <option value="3">3 pers.</option>
