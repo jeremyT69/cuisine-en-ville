@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -15,7 +14,7 @@
 }
 
 .menu-navbar .img {
-  width: 30%;
+  width: 8rem;
 }
 
 .btn-order {
@@ -93,7 +92,7 @@ footer li {
 
 .container-time {
   background-color: #000;
-  color: #EBE6E4;
+  color: #ebe6e4;
   padding: 50px;
   outline: 3px dashed #EBE6E4;
   outline-offset: -30px;
@@ -103,7 +102,8 @@ footer li {
   font-size: 25px;
   text-transform: uppercase;
 }
- input, select{
+
+input, select{
   width: 90%;
  }
 

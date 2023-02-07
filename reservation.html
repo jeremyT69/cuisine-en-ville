@@ -16,7 +16,7 @@
 
 <body>
   <header>
-    <nav class="menu-navbar navbar navbar-expand-lg navbar w-100">
+    <nav class="menu-navbar navbar navbar-expand-lg navbar-light w-100">
       <div class="container-fluid">
         <div class="navbar-brand mx-4 py-3">
           <img class="img" src="photo/Logo-Restaurant.png" alt="Logo du restaurant">
@@ -46,73 +46,74 @@
     </nav>
   </header>
 
-  <div class="container py-5 d-flex justify-content-center align-items-center">
-    <div class="container-time text-center col-lg-4">
-      <h2 class="title-open">Horaires d'ouverture</h2>
-      <h3 class="title-days">Lundi</h3>
-      <p>Restaurant fermé</p>
 
-      <h3 class="title-days">Mardi-Dimanche</h3>
-      <p>12h00 à 22h00</p>
-
-      <hr>
-
-      <h5 class="title-phone">Téléphone: 06.54.31.86.00</h5>
-    </div>
-
-    <div class="container-form text-center col-lg-4">
-      <form action="#">
-        <h2 class="title-reservation pb-3">Réservation en ligne</h2>
-
-        <div class="form-field fw-bold pb-3 w-100">
-          <label for="firstname"></label>
-          <input type="text" name="Nom" placeholder="Nom" id="firstname">
+  <section class="container">
+    <div class="row">
+      <div class="container-reservation py-5 col-lg-6">
+        <div class="container-time text-center ">
+            <h2 class="title-open">Horaires d'ouverture</h2>
+            <h3 class="title-days">Lundi</h3>
+            <p>Restaurant fermé</p>
+            <h3 class="title-days">Mardi-Dimanche</h3>
+            <p>12h00 à 22h00</p>
+            <hr>
+            <h5 class="title-phone">Téléphone: 06.54.31.86.00</h5>
         </div>
+      </div>
 
-        <div class="form-field fw-bold pb-3">
-          <label for="email-input"></label>
-          <input type="text" name="email" placeholder="E-mail" id="email-input">
-        </div>
-
-        <div class="form-field fw-bold pb-3">
-          <label for="date-input"></label>
-          <input type="date" name="Date" id="date-input">
-        </div>
-
-        <div class="form-field fw-bold pb-3">
-          <label for="time-input"></label>
-          <input type="time" name="time" id="time-input">
-        </div>
-
-        <div class="form-field fw-bold pb-3">
-          <label for="select-input"></label>
-          <select name="select" id="select-input">
-            <option value="1">1 pers.</option>
-            <option value="2">2 pers.</option>
-            <option value="3">3 pers.</option>
-            <option value="4">4 pers.</option>
-            <option value="4+">4+ pers.</option>
-          </select>
-        </div>
-
-          <button class="btn btn-order">Réserver</button>
-
-      </form>
-
-    </div>
-  </div>
   
+      <div class="container-form text-center d-flex justify-content-center align-items-center py-5 col-lg-6">
+          <form action="#">
+              <h2 class="title-reservation pb-3">Réservation en ligne</h2>
+
+              <div class="form-field fw-bold pb-3 w-100">
+                <label for="firstname"></label>
+                <input type="text" name="Nom" placeholder="Nom" id="firstname">
+              </div>
+
+              <div class="form-field fw-bold pb-3">
+                <label for="email-input"></label>
+                <input type="text" name="email" placeholder="E-mail" id="email-input">
+              </div>
+
+              <div class="form-field fw-bold pb-3">
+                <label for="date-input"></label>
+                <input type="date" name="Date" id="date-input">
+              </div>
+
+              <div class="form-field fw-bold pb-3">
+                <label for="time-input"></label>
+                <input type="time" name="time" id="time-input">
+              </div>
+
+              <div class="form-field fw-bold pb-3">
+                <label for="select-input"></label>
+                <select name="select" id="select-input">
+                  <option value="1">1 pers.</option>
+                  <option value="2">2 pers.</option>
+                  <option value="3">3 pers.</option>
+                  <option value="4">4 pers.</option>
+                  <option value="4+">4+ pers.</option>
+                </select>
+              </div>
+            <button class="btn btn-order">Réserver</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
   <footer>
     <div class="container py-4">
       <div class="row">
 
         <div class="Contact col-lg-3">
-          <ul>
-            <h4>Contact</h4>
-            <li><a class="nav-link" href="#">110 rue de la soie, Lyon 69006</a></li>
-            <li><a class="nav-link" href="#">Tel: 06.54.31.86.00</a></li>
-            <li><a class="nav-link" href="#">Mail: cuisine-en-ville@gmail.com</a></li>
-          </ul>
+          <h4>Contact</h4>
+          <a class="nav-link" href="#">110 rue de la soie, Lyon 69006</a>
+          <a class="nav-link" href="#">Tel: 06.54.31.86.00</a>
+          <a class="nav-link" href="#">Mail: cuisine-en-ville@gmail.com</a>
         </div>
 
         <div class="Horaires col-lg-3">
@@ -121,22 +122,18 @@
         </div>
 
         <div class="reseaux-sociaux col-lg-3">
-          <ul>
-            <h4>Suivez-nous</h4>
-            <div>
-              <a href="#" class="social pe-3"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#" class="social pe-3"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#" class="social"><i class="fa-brands fa-facebook"></i></a>
-            </div>
-          </ul>
+          <h4>Suivez-nous</h4>
+          <div>
+            <a href="#" class="social pe-3"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social pe-3"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social"><i class="fa-brands fa-facebook"></i></a>
+          </div>
         </div>
 
         <div class="informations col-lg-3">
-          <ul>
-            <h4>Informations</h4>
-            <li><a class="nav-link" href="#">FAQ</a></li>
-            <li><a class="nav-link" href="#">Mentions légales</a></li>
-          </ul>
+          <h4>Informations</h4>
+          <a class="nav-link" href="#">FAQ</a>
+          <a class="nav-link" href="#">Mentions légales</a>
         </div>
 
       </div>
